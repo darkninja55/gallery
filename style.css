@@ -58,16 +58,14 @@
     padding: 40px 0;
     border-top: 1px solid #7D7D7D;
     display: grid;
-    grid-template-columns: repeat(4, 350px);
-    grid-template-rows: repeat(7, 240px);
-    
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: repeat(7, 200px);
+    gap: 40px;
 }
 
 .bola {
     background-color: blue;
     padding: 0;
-    margin-right: 40px;
-    margin-bottom: 40px;
     display: flex;
    flex-direction: column;
     justify-content:flex-end;
